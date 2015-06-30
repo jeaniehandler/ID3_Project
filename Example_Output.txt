@@ -1,0 +1,81 @@
+OUTPUT1
+Enter file names : Dataset Input-partition Output-partition
+dataset-1.txt partition1-0.txt output1.txt
+HIGHEST Gain : 0.256426
+No Partition to Split 
+Partition 0 was split into 0 and 14 Using Column 2
+Contents of Partition File : 
+0  1  2  3  5  9  10 
+14  4  6  7  8 
+
+OUTPUT2
+Enter file names : Dataset Input-partition Output-partition
+dataset-1.txt partition1-1.txt output2.txt
+HIGHEST Gain : 0.0326817
+Split Partition Id : 7
+Partition 7 was split into 7 and 10 Using Column 2
+Contents of Partition File : 
+1 1 10
+7  2  3  5 
+10  4 
+2 6 7 8 9
+
+OUTPUT3
+Enter file names : Dataset Input-partition Output-partition
+dataset-1.txt partition1-2.txt output3.txt
+HIGHEST Gain : 0.0655022
+Split Partition Id : 2
+Partition 2 was split into 2 and 6 Using Column 1
+Contents of Partition File : 
+2  1  2  5  9 
+6  3  10 
+3 4 6 7 8
+
+OUTPUT4
+Enter file names : Dataset Input-partition Output-partition
+dataset-2.txt partition2-1.txt output4.txt
+HIGHEST Gain : 0.16
+Split Partition Id : 5
+Partition 5 was split into 5 and 12 Using Column 2
+Contents of Partition File : 
+2 1 5 6 7 9 10 11 12 13 14 15 16 22
+4 2 3 4 8 17 19 20 25
+5  23  24 
+12  18  21 
+
+OUTPUT5
+Enter file names : Dataset Input-partition Output-partition
+dataset-3.txt partition3-1.txt output5.txt
+HIGHEST Gain : 0.0419973
+Split Partition Id : 4
+Partition 4 was split into 4 and 13 Using Column 2
+Contents of Partition File : 
+2 1 4 7 9 10 11 12 14 18 19 20 24 25 26 28 31 39 40 41 44 45 50
+4  21  42  48 
+13  13  15  16  17  33  35  38  43  49 
+5 2 3 5 6 8 22 23 27 29 30 32 34 36 37 46 47
+
+OUTPUT6
+Enter file names : Dataset Input-partition Output-partition
+dataset-4.txt partition4-1.txt output6.txt
+HIGHEST Gain : 0.031922
+Split Partition Id : 4
+Partition 4 was split into 4 and 9 Using Column 10
+Contents of Partition File : 
+2 1 4 6 7 12 15 16 19 22 23 24 26 30 32 33 36 37 38 39 43 44 45 46 52 53 57 61 62 64 71 72 73 74 75 76 86 90 93 94 95 96 97 98 100
+4  3  13  18  28  31  40  50  60  68  80  82  87  99 
+9  5  8  10  17  20  34  41  49  54  63  66  78  79  81  91 
+6 14 27 47 48 51 55 58 67 69 70 77 83 84 85
+7 2 9 11 21 25 29 35 42 56 59 65 88 89 92
+
+OUTPUT7
+Enter file names : Dataset Input-partition Output-partition
+dataset-5.txt partition5-1.txt output7.txt
+HIGHEST Gain : 0.550978
+Split Partition Id : 3
+Partition 3 was split into 3 and 17 Using Column 2
+Contents of Partition File : 
+1 1
+2 2 3 4
+3  5  8 
+17  6  7  9  10 
